@@ -6,6 +6,7 @@ public class Student {
 	private String studentName;
 	private double averageMark;
 	private School school;
+	
 	public long getStudentId() {
 		return studentId;
 	}

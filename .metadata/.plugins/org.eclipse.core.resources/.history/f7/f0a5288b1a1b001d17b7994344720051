@@ -1,0 +1,8 @@
+package com.godoro.composition;
+
+public class Team {
+	private int teamId;
+	private String teamName;
+	
+	
+}

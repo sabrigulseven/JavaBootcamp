@@ -1,0 +1,11 @@
+package com.godoro.inventory;
+
+public class CustomerTest2 {
+	
+	public static void main(String[] args) {
+		
+		Customer customer = new Customer(501 , "Neşet Ertaş", 4350);
+				
+	}
+
+}

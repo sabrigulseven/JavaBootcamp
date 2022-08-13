@@ -1,0 +1,10 @@
+package com.godoro.composition;
+
+public class SportsTest1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Team team = new Team(801,"Godoro Spor");
+	}
+
+}

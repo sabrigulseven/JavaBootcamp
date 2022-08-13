@@ -1,0 +1,11 @@
+package com.godoro.composition;
+
+public class SportsTest2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		League league1 = new League(601, "Superlig");
+		Team team1 = new Team()
+	}
+
+}
