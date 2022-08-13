@@ -1,0 +1,18 @@
+package com.godoro.collections;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapTest {
+	public static void main(String[] args) {
+		Map<String,String> contryMap = new HashMap<>();
+		contryMap.put("tr", "Tr");
+		contryMap.put("az", "AZ");
+		contryMap.put("tr", "Tr");
+		contryMap.put("tr", "Tr");
+		for(String code: contryMap.keySet()) {
+			String country = countryMap.get(code);
+			System.out.println(code + ":" + country);
+		}
+	}
+}

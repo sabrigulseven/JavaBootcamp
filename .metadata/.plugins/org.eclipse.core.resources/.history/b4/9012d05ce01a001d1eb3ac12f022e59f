@@ -1,0 +1,11 @@
+package com.godoro.geometry;
+
+public class RectangleTest4 {
+	public static void main(String[] args) {
+		Rectangle rectangle = new Rectangle();
+		rectangle.height = 5;
+		rectangle.width = 3;
+		System.out.println(rectangle.getArea());
+		System.out.println(rectangle.getPerimeter());
+	}
+}

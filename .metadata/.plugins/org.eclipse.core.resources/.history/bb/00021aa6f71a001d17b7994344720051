@@ -1,0 +1,8 @@
+package com.godoro.composition;
+
+public class School {
+	
+	private long schoolId;
+	
+	private String schoolName;
+}

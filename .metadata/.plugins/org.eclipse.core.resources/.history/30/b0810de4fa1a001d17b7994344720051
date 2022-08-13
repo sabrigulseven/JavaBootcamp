@@ -1,0 +1,19 @@
+package com.godoro.composition;
+
+public class test {
+
+	public static void main(String[] args) {
+
+		School schoolA = new School(801, "Godoro Üniversitesi");
+		schoolA.setStudentList(new ArrayList<>());
+		
+		Student student1 = new Student(401,"Teoman Alpay",46.7);
+		student1.setSchool(schoolA);
+		schoolA.getStudentList().add(student1);
+		
+		Student student2 = new Student(401,"Teoman Alpay",46.7);
+		student2.setSchool(schoolA);
+		schoolA.getStudentList().add(student2);
+	}
+
+}
