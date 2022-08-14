@@ -2,4 +2,17 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.Readable"/>
     <fullyQualifiedTypeName name="com.godoro.geometry.Rectangle"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+    <fullyQualifiedTypeName name="com.godoro.inventory.Product"/>
+    <fullyQualifiedTypeName name="com.godoro.composition.School"/>
+    <fullyQualifiedTypeName name="com.godoro.composition.Student"/>
+    <fullyQualifiedTypeName name="com.godoro.console.BuilderTest"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="com.godoro.inventory.Customer"/>
+    <fullyQualifiedTypeName name="com.godoro.composition.Player"/>
+    <fullyQualifiedTypeName name="com.godoro.composition.League"/>
+    <fullyQualifiedTypeName name="com.godoro.composition.Team"/>
+    <fullyQualifiedTypeName name="com.godoro.composition.LeagueList"/>
 </qualifiedTypeNameHistroy>
