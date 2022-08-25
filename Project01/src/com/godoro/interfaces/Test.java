@@ -18,7 +18,7 @@ public class Test {
         bat.fly();
         bat.land();
 
-        Mammal mammal = new Bat("Robin");
+        //Mammal mammal = new Bat("Robin");
         //mammal.fly(); doesn't have
 
         Flyable flyable2 = new Bat("Vampir");

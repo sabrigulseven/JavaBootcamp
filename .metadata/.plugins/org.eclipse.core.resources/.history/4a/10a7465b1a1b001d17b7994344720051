@@ -1,9 +1,0 @@
-package com.godoro.composition;
-
-public class Player {
-	private int playerId;
-	private String playerName;
-	private double averageScore;
-	
-
-}

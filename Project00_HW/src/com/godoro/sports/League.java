@@ -3,9 +3,11 @@ package com.godoro.sports;
 import java.util.List;
 
 public class League {
+	
 	private int leagueId;
 	private String leagueName;
 	private List<Team> teamList;
+
 	public int getLeagueId() {
 		return leagueId;
 	}
