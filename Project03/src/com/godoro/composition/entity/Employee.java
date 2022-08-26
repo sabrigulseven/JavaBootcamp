@@ -1,4 +1,4 @@
-package com.godoro.composition;
+package com.godoro.composition.entity;
 
 public class Employee {
     private long employeeid;
@@ -36,6 +36,14 @@ public class Employee {
 
     public void setMonthlySalary(double monthlySalary) {
         this.monthlySalary = monthlySalary;
+    }
+
+    public Department getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(Department department) {
+        this.department = department;
     }
 
 }

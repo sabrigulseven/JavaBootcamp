@@ -1,4 +1,4 @@
-package com.godoro.composition;
+package com.godoro.composition.entity;
 
 public class Department {
     private long departmentId;
