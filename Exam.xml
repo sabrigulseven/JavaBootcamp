@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exam id="java-01">
+
+	<question number="1">
+		<text> Hangi konuyu öğrenmediniz</text>
+		<option code="A">JAXP </option> 
+		<option code="B"> XML</option> 
+		<option code="C"> HTTP</option> 
+		<option code="D">XSL </option> 
+	</question>
+	<question number="2">
+		<text> Hangi konuyu kendiniz öğrenmediniz</text>
+		<option code="A"> XML</option> 
+		<option code="B">XSL  </option> 
+		<option code="C"> XSD </option> 
+		<option code="D"> XPATH</option> 
+	</question>
+</exam>
