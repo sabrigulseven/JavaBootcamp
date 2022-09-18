@@ -16,6 +16,7 @@
     <div class="navbar-nav">
       <a class="nav-item nav-link" href="CategorySummary.jsp">Category Summary</a>
       <a class="nav-item nav-link" href="ProductSummary.jsp">Product Summary</a>
+      <a class="nav-item nav-link" href="CartSummary.jsp">Cart Summary</a>
     </div>
   </div>
 </nav>

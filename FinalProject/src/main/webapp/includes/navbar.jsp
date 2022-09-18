@@ -45,7 +45,7 @@ for (int i = 0; i < categoryList.getLength(); i++) {
 			<ul class="navbar-nav ml-auto">
 				
 				<li class="nav-item"><a class="nav-link" href="MainPage.jsp">Home</a></li>
-				<li class="nav-item"><a class="nav-link" href="cart.jsp">Cart <span class="badge badge-danger">${cart_list.size()}</span> </a></li>
+				<li class="nav-item"><a class="nav-link" href="CartView.jsp">Cart <span class="badge badge-danger">${cart_list.size()}</span> </a></li>
 				<%
 				String auth="";
 				if (auth != null) {
