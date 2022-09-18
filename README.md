@@ -63,3 +63,9 @@ Product Summary
 
 Product Detail
 ![image](https://user-images.githubusercontent.com/80418105/190887805-8a859908-5748-4f05-8aeb-586892e00309.png)
+
+Cart Summary
+![image](https://user-images.githubusercontent.com/80418105/190889962-4ae974a9-9d42-41d8-8e15-9e3a181db0be.png)
+
+Cart Detail
+![image](https://user-images.githubusercontent.com/80418105/190889982-529282c3-c36a-4070-bf18-ad213d21c8f2.png)
