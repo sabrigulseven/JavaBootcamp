@@ -9,18 +9,19 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/me")
-public class MyServlet extends HttpServlet { 
+@WebServlet("/get")
+public class GetServlet extends HttpServlet{
 	
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		response.setContentType("text/html;charset=UTF-8");
+		
+		response.setContentType("text/html; charset=UTF-8");
 		PrintWriter out = response.getWriter();
+		
 		out.println("<html>");
 		out.println("<body>");
 		out.println("Uğrola Godoro");
 		out.println("</body>");
 		out.println("</html>");
 	}
-
 }

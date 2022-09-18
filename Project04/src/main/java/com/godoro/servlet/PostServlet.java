@@ -14,15 +14,14 @@ import com.godoro.utils.StreamUtilities;
 
 @WebServlet("/post")
 public class PostServlet extends HttpServlet{
-	
+
 	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		InputStream in = request.getInputStream();
 		String input = StreamUtilities.read(in);
-		System.out.println("Girdi:");
 		System.out.println(input);
-
-		OutputStream out = response.getOutputStream();	
-		StreamUtilities.write(out,"Oldu");
+		
+		OutputStream out =response.getOutputStream();
+		StreamUtilities.write(out, input);
 	}
 }
