@@ -1,20 +1,21 @@
 Final Project: E-Commerse App
-
-Using Technologies:
-  PostgreSQL
-	JDBC
-	Entity Manager Pattern
-	Tomcat
-	Servlet
-	REST
-	XML
-	XML Over HTTP
-	HTTP Client
-	JSP
-	HTML
+ </br> </br> </br>
+Using Technologies:  </br> </br>
+  PostgreSQL </br>
+	JDBC </br>
+	Entity Manager Pattern </br>
+	Tomcat </br>
+	Servlet </br>
+	REST </br>
+	XML </br>
+	XML Over HTTP </br>
+	HTTP Client </br>
+	JSP </br>
+	HTML </br>
   
-  </br>
-Main page 
+  </br> </br>
+   
+Main page
 ![image](https://user-images.githubusercontent.com/80418105/190887254-09f7d6ec-5cc5-4037-95c6-d7496d401237.png)
 
 
