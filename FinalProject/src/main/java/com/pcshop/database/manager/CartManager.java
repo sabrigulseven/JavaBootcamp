@@ -10,6 +10,7 @@ import java.util.List;
 
 import com.pcshop.database.entity.Cart;
 import com.pcshop.database.entity.CartProduct;
+import com.pcshop.database.entity.Category;
 import com.pcshop.database.entity.Product;
 
 public class CartManager {
@@ -110,5 +111,33 @@ public class CartManager {
 		double salesPrice = resultSet.getDouble("salesPrice");
 		CartProduct product = new CartProduct(cartProductId, cartId, productId, salesQuantity, salesPrice);
 		return product;
+	}
+	public List<Cart> cartList() throws Exception{
+		Connection connection = DriverManager.getConnection(url, username, password);
+
+        String sql = "select * from cart";
+        PreparedStatement statement = connection.prepareStatement(sql);
+        ResultSet resultSet = statement.executeQuery();
+        List<Cart> cartList = parseListCart(resultSet);
+
+        connection.close();
+
+        return cartList;
+	}
+	private List<Cart> parseListCart(ResultSet resultSet) throws Exception {
+        List<Cart> cartList = new ArrayList<>();
+        while (resultSet.next()) {
+        	Cart cart = parseCart(resultSet);
+        	cartList.add(cart);
+        }
+        return cartList;
+    }
+
+	private Cart parseCart(ResultSet resultSet) throws SQLException {
+		long cartId = resultSet.getLong("cartId");
+		double totalAmount = resultSet.getDouble("totalAmount");
+		String customerName=resultSet.getString("customerName");
+		Cart cart = new Cart(cartId, totalAmount, customerName);
+		return cart;
 	}
 }

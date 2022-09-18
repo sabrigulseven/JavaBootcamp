@@ -23,7 +23,6 @@ public class CartAddClient {
 			try {
 				Document document = CartProductXml.format(cartProduct);
 				URLConnection connection= WebHelper.connect(adress);
-				connection.setDoOutput(true);
 				XmlHelper.dump(document, connection.getOutputStream());
 			} catch (ParserConfigurationException | TransformerException | IOException e) {
 				e.printStackTrace();
